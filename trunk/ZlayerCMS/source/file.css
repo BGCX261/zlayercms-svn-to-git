@@ -1,0 +1,141 @@
+/*    CSS file for my site-blog or something 	*/
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: georgia, sans-serif;
+	line-height: 1.75;
+	color: rgb(91,91,91);
+	background:  #FFFFFF; 
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+}
+
+h3 {
+	font: italic 1.5em;
+	letter-spacing: 1px;
+	color: rgb(30,30,30);
+	text-align: left;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active	{
+	text-decoration: underline;
+	color: rgb(91,91,91);
+}
+/*  divs   */
+
+#container {
+	width: 750px;
+	padding: 0 150px 0 150px;
+	margin: 0 auto;
+}
+
+#header {
+	position: top fixed;
+	background: white;
+	width: 650px;
+	height: 140px;
+	text-align: center;
+	font-style: italic;
+}
+
+#navbar {
+	position: top;
+	clear: both;
+	width: 750px;
+	height: 2em;
+	text-align: left;
+	padding-left: 5em;
+}
+#navbar a {
+	color: red;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	text-decoration: none;
+	color: rgb(120,120,120);
+}
+
+#navbar a:hover, a:active       {
+        text-decoration: underline;
+	color: rgb(11,11,11);
+
+}
+
+#navbar ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#navbar li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+	
+#content {
+	float: left;
+	width: 500px;
+}
+
+#links {
+	float: right;
+	width: 250px;
+}
+
+
+#links a {
+        color: red;
+        text-decoration: none;
+}
+
+#links a:visited {
+        text-decoration: none;
+	color: rgb(120,120,120);
+}
+
+#links a:hover, a:active       {
+        text-decoration: underline;
+        color: rgb(11,11,11);
+}
+
+#links ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+}
+
+table {
+	table-layout: auto;
+	
+	}
+
+#footer {
+	text-align: center;
+	text-decoration: none;
+	border: 0;
+	border-collapse:collapse;
+	vertical-align: bottom;
+	padding: 0;
+	margin: 0;
+	position-bottom: 0px;
+	position-left: 0px;
+	width: 500px;
+	clear: both;
+}
+
+p.navpost {
+	text-align: center;
+} 

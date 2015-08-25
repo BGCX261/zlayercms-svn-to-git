@@ -1,0 +1,13 @@
+#summary Instructions for version 0.1 to work
+
+= Introduction =
+For the project to work, you need to create a database zlayer_cms with two tables (details in the source), with username and password. The fill in the password information in the file bases.php. The directory backoffice can be renamed, but the files in it should be one level bellow the main index file and bases.php connector information file.
+After this, instruct your php-enabled web server to serve these pages.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages

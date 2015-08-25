@@ -1,0 +1,3 @@
+EVERYTHING
+ 1. for starters, abstract out the db, so I can use flat-file instead of db system
+ 2. create the data model
